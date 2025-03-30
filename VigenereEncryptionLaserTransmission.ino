@@ -77,7 +77,7 @@ String generateKey(int length) {
 }
 
 
-// Vigenère Cipher Encryption
+// Vigenere Cipher Encryption
 String vigenereEncrypt(String text, String key) {
     String encrypted = "";
     for (int i = 0; i < text.length(); i++) {
@@ -88,7 +88,7 @@ String vigenereEncrypt(String text, String key) {
 }
 
 
-// Vigenère Cipher Decryption
+// Vigenere Cipher Decryption
 String vigenereDecrypt(String text, String key) {
     String decrypted = "";
     for (int i = 0; i < text.length(); i++) {
